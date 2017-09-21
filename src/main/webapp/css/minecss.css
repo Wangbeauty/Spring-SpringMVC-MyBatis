@@ -1,0 +1,105 @@
+/*--------------index.jsp---------------*/
+/*µÇÂ½div*/
+.loginData {
+	height: 50%;
+	float : right;
+	position: absolute;
+	margin-left: 5%;
+	margin-top : 8%;
+}
+/*×¢²ádiv*/
+.registerData {
+	display: none;
+	height: 70%;
+	float : right;
+	position: absolute;
+	margin-left: 5%;
+	margin-top : 8%;
+}
+
+.leftdiv {
+	float : left;
+	width : 60%;
+	height : 100%;
+}
+
+.rightdiv {
+	float: right;
+	width: 40%;
+	height : 100%;
+}
+/*--------------index.jsp---------------*/
+
+/*--------------driverSchoolIndex.jsp-------------*/
+.firstdiv {
+	float: right;
+	width: 100%;
+}
+
+.seconddiv {
+	float: left;
+	width: 100%;
+}
+
+.seconddivright1 {
+	display :none;
+	float:right;
+	width:33%;
+}
+
+.seconddivright2 {
+	display :none;
+	float:right;
+	margin-top: 10%;
+	margin-right: 5%;
+	width : 20%;
+	height:20%;
+	text-align: center;
+}
+
+.thirddiv {
+	float: left;
+	width: 100%;
+	height: 35%;
+}
+
+.fourthdiv {
+	float: right;
+	width: 100%;
+}
+
+.showIsNotSubscribe {
+	display : none;
+	float: right;
+	width: 49%;
+	height:93%;
+	text-align: center;
+}
+
+.showIsSubscribe {
+	display : none;
+	float: left;
+	width: 49%;
+	height:93%;
+	text-align: center;
+}
+
+.firstSubscribe {
+	display : none;
+	border:1px solid black;
+	position: absolute;
+	width:20%;
+	height:30%;
+	margin-top:15%;
+	margin-left:35%;
+	text-align: center;
+}
+
+.attention {
+	display:none;
+	border:1px solid blue;
+	height:120px;
+	width:260px;
+}
+
+/*--------------driverSchoolIndex.jsp-------------*/

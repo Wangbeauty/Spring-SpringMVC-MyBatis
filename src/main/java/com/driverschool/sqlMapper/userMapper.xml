@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE mapper
+  PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN"
+  "http://mybatis.org/dtd/mybatis-3-mapper.dtd">
+  
+  <mapper namespace="com.driverschool.dao.userDAO">
+  		
+  	<select id="findUserByUserName" parameterType="String" resultType="user">
+  		SELECT id, username, password, addressid, identityId 
+		FROM usertable 
+		WHERE username = #{username}
+  	</select>
+  	
+  	<insert id="addUser" parameterType="user">
+  		INSERT INTO usertable
+		(
+			username,password,addressid,identityId
+		) VALUES (
+			#{username},#{password},#{addressId},#{identityId}
+		)
+  	</insert>
+  	
+  	<select id="findAddress" resultType="address">
+  		SELECT id AS id,addressname AS NAME
+		FROM addresstable
+  	</select>
+  	
+  	<update id="updateUser" parameterType="user">
+  		UPDATE usertable 
+  		SET identityId = #{identityId} 
+  		WHERE id = #{id}
+  	</update>
+  
+  </mapper>
